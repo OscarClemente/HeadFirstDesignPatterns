@@ -1,7 +1,7 @@
 package factory.abstractFactory.ingredients;
 
 public interface PizzaIngredientFactory {
-	public Dough createDought();
+	public Dough createDough();
 	public Sauce createSauce();
 	public Cheese createCheese();
 	public Veggies[] createVeggies();

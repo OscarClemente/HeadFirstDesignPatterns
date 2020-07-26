@@ -1,0 +1,11 @@
+package factory.abstractFactory.ingredients.common;
+
+import factory.abstractFactory.ingredients.Veggies;
+
+public class Onion implements Veggies{
+	public String toString()
+	{
+		return "Onion";
+	}
+
+}
