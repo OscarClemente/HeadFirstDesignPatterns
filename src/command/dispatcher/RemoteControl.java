@@ -1,6 +1,7 @@
 package command.dispatcher;
 
 import command.commands.Command;
+import command.commands.NoCommand;
 
 public class RemoteControl {
 	Command[] onCommands;
